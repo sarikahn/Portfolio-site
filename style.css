@@ -1,0 +1,107 @@
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* Header Flex */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section Layout */
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Skills List Flex */
+.skills-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+/* Project Grid */
+#projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.project {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Form Flex */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+form input,
+form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Button Flex-Friendly */
+button {
+  background: #333;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+  margin-top: 2rem;
+} 
+
+  
